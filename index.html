@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+      <body>
+        <div class="calculadora">
+          <!-- Sección de descripción -->
+          <div class="descripcion">
+            <h1>Calculadora básica</h1>
+          </div>
+          <!-- Pantalla donde se muestra el resultado -->
+          <div id="pantalla" class="pantalla">0</div>
+          <div class="botones">
+              <button id="boton7" class="boton" onclick="presionarDigito('7')">7</button>
+              <button id="boton8" class="boton" onclick="presionarDigito('8')">8</button>
+              <button id="boton9" class="boton" onclick="presionarDigito('9')">9</button>
+              <button id="botonSuma" class="boton operacion" onclick="presionarOperacion('+')">+</button>
+              <button id="boton4" class="boton" onclick="presionarDigito('4')">4</button>
+              <button id="boton5" class="boton" onclick="presionarDigito('5')">5</button>
+              <button id="boton6" class="boton" onclick="presionarDigito('6')">6</button>
+              <button id="botonResta" class="boton operacion" onclick="presionarOperacion('-')">-</button>
+              <button id="boton1" class="boton" onclick="presionarDigito('1')">1</button>
+              <button id="boton2" class="boton" onclick="presionarDigito('2')">2</button>
+              <button id="boton3" class="boton" onclick="presionarDigito('3')">3</button>
+              <button id="botonMultiplicacion" class="boton operacion" onclick="presionarOperacion('*')">*</button>
+              <button id="boton0" class="boton" onclick="presionarDigito('0')">0</button>
+              <button id="botonBorrar" class="boton" onclick="presionarBorrar()">C</button>
+              <button id="botonIgual" class="boton operacion" onclick="presionarIgual()">=</button>
+              <button id="botonDivision" class="boton operacion" onclick="presionarOperacion('/')">/</button>
+            </div>
+          
+      
+        <!-- Script con el algoritmo de la calculadora -->
+        <script src="algoritmo.js"></script>
+</body>
+</html>

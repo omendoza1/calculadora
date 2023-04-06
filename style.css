@@ -1,0 +1,69 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la calculadora */
+.calculadora {
+    width: 300px;
+    height: 500px;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+/* Estilos de la pantalla */
+.pantalla {
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+    text-align: right;
+    line-height: 100px;
+    padding-right: 10px;
+}
+
+/* Estilos de los botones */
+.botones {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.boton {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.boton:hover {
+    background-color: lightblue;
+}
+
+/* Estilos de la sección de descripción */
+.descripcion {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Estilos del historial de cálculos */
+.historial {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    overflow-y: scroll;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
